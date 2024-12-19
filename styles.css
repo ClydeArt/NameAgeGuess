@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("1.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    /* background-color: #e0f7fa; */
+    /* Light blue background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    border: 2px solid white;
+    /* Blue border to complement the blue theme */
+}
+
+input {
+    padding: 5px;
+    margin: 10px 0;
+    width: 80%;
+    border: 2px solid white;
+    /* Blue border for input fields */
+    border-radius: 5px;
+    background-color: #ffffff;
+    /* White background for input */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(124, 120, 120);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    &:hover {
+        filter: brightness(1.9);
+    }
+}
+
+#result p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+span {
+    color: rgb(124, 120, 120);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: white;
+}
